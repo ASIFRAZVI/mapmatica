@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin: 0;
+}
+
+/* Logout link styles */
+a {
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Container for the client list */
+#clientList {
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Enable wrapping for responsiveness */
+    justify-content: space-evenly; /* Add space between cards */
+}
+
+/* Individual client list item styles (cards) */
+#clientList li {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-basis: calc(33.33% - 20px); /* Adjust width for responsive columns */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#clientList li:hover {
+    transform: scale(1.05); /* Add a hover effect to scale the card */
+}
+
+/* Client details list styles */
+#clientList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Individual client detail item styles */
+#clientList li ul li {
+    margin-bottom: 10px;
+}
+
+/* Styling for the detail labels */
+#clientList li ul li::before {
+    content: attr(data-label);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+
+    #pagination {
+        display: flex;
+        justify-content: center;
+    }
+
+    #pagination button {
+        margin: 5px; /* Adjust the margin as needed */
+    }

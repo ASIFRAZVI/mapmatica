@@ -1,0 +1,473 @@
+html{
+    scroll-behavior: smooth;
+    font-style: normal;
+}
+body{
+    background-image: url("images1/medium-shot-man-engineer-controlling-drone.jpg");
+    transition: 0.04s;  
+    background-repeat: repeat;
+    background-size: contain;
+    object-fit:contain;
+   
+}
+.logo{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    margin-left: 10px;
+    font-weight: 900px;
+    padding: 0px;
+    letter-spacing: 1px;
+    cursor: pointer; 
+      
+}
+.logo img{
+    display: flex;
+    height: 40px;
+    width: 70px;
+    padding: none;
+    border-radius: none;
+    margin: 25px;
+}
+nav {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 18px;
+    gap: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: 0.8s;
+    padding-right: 50px;
+    background-color: transparent;
+    
+}
+button{
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;   
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    font-size: 6px;
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    width: auto;
+    padding: 10px 14px;
+    z-index: 1;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    font-size: 6px;
+    background-color: transparent;
+    width: fit-content;
+}
+.main{
+    display: flex;
+
+    justify-content: auto;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+    font-size: 20px;
+    height: auto;
+}
+.about {
+    display: flex;
+    background-color: transparent;
+    
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+    transition: 0.6s;
+    height: 200px;
+
+}
+.about-1 h2{
+    color: purple;
+    text-transform: capitalize;
+}
+.about button{
+    color: red;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    height: 10px;
+    margin: 25px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.main-1 h2 {
+    color: blueviolet;
+    font-weight:bolder;
+    padding: 100px 0px 0px;
+
+}
+.main-1 h3 {
+    color: black;
+    font-size: large;
+    font-weight:500;
+    font: larger;
+
+}
+.main-2{
+    display: flex;
+    background-color: transparent;
+    
+    justify-content: auto;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 6px;
+    height: 400px;
+}
+.main-1 {
+    background: transparent;
+    
+}
+.info {
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    justify-content: center;
+}
+.info p {
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 450;
+}
+.info b {
+    color: blueviolet;
+}
+.service h2, .follow-us h2, .other-services h2{
+    display: flex;
+    color: blueviolet;
+    justify-content: center;
+    font-size: 50px;
+    padding: 25px 50px;
+    height: fit-content;  
+}
+.container {
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    gap: 24px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.service-card1, .service-card2 {
+    position: relative;
+    box-shadow: #f0f0f0;
+    background-color: transparent;
+    border-radius:6px;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 40px 0px;
+    height: auto;
+    width: 300px;
+    transition: 0.5s;
+}
+.service-card1 img, .service-card2 img {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    border-radius: 6px;
+}
+.service-card1 h3, .service-card2 h3, .founder-card h3{
+    display: flex;
+    justify-content: center;
+}
+.service-card1 h6, .founder-card h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.service-card1 button, .service-card2 button{
+    color: black;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    height: 10px;
+    margin: 25px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.os-card, .os-card1, .os-card2, .os-card3 {
+    position: relative;
+    background-color: transparent;
+    border-radius:6px;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin: 45px 0px;
+    height: auto;
+    width: 160px;
+    transition: 0.5s;
+}
+.os-card img, .os-card1 img, .os-card2 img, .os-card3 img{
+    position: relative;
+    display: flex;
+    height: 200px;
+    width: 150px;
+    border-radius: 6px;
+    
+}
+.os-card p, .os-card1 p, .os-card2 p, .os-card3 p {
+    justify-content: center;
+    display: flex;
+}
+.os-card:hover, .os-card1:hover, .os-card2:hover, .os-card3:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 8px 8px 8px 10px blur(20px);
+
+}
+
+.founder-card {
+    position: relative;
+    box-shadow: #f0f0f0;
+    background-color: transparent;
+    border-radius:10px;
+    justify-content: center;
+    padding: 30px;
+    margin: 10px;
+    height: auto;
+    width: 430px;
+    transition: 0.5s;
+}
+.founder-card img{
+    position: relative;
+    display: flex;
+    height: 150px;
+    width: 150px;
+    padding: 0px 125px;
+    border-radius: 50%;
+    margin: 25px;
+}
+.founder-card:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 8px 8px 8px 10px gray;
+}
+.get-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 24px;
+    font-size: 24px;
+    width: 100%;
+    padding: 30px;
+}
+.contact-bttn {
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+}
+.social-cardfb, .social-cardig, .social-cardli {
+    position: relative;
+    box-shadow: #f0f0f0;
+    background-color: transparent;
+    border-radius:8px;
+    justify-content: space-between;
+    padding: 25px;
+    margin: 25px 20px;
+    height: 90px;
+    width:  200px;
+    transition: 0.5s;
+}
+.social-cardfb img, .social-cardig img, .social-cardli img {
+    position: relative;
+    display: flex;
+    padding: 6px 82px;
+    height: 40px;
+    justify-content: center;
+}
+.social-cardfb:hover, .social-cardig:hover, .social-cardli:hover {
+    transition: 0.4s;
+    transform: scale(1.1);
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 8px 8px 8px 10px gray;
+}
+.social-cardfb p, .social-cardig p, .social-cardli p {
+    position: relative;
+    font-size: larger;
+    font-weight: bolder;
+    gap: 25px;
+    justify-content: center;
+    display: flex;
+}
+.footer {
+    background-color: rgb(234, 221, 221);
+    justify-content: space-evenly;
+}
+
+.footer-card0 img {
+    position: relative;
+    display: flex;
+    margin: 40px;
+    height: 150px;
+    justify-content: space-evenly;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 500px;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    border: 1px solid #ffff;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.form-value h2 {
+    font-size: 30px;
+    color: blueviolet;
+    text-align: center;
+}
+  
+.inputbox {
+    position: relative;
+    margin: 25px 0;
+    width: 310px;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+  
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 15px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+  
+input:focus ~ label {
+    top: -5px;
+}
+input:valid ~ label {
+    top: -5px;
+}
+  
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 20px 0 5px;
+    color: black;
+}
+  
+.inputbox ion-icon {
+    position: absolute;
+    right: 6px;
+    color: blueviolet;
+    font-size: 10px;
+    
+}
+.service-card1:hover, .service-card2:hover{
+    transition: 0.4s;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    transform: scale(1.1);
+    box-shadow: 8px 8px 8px 10px gray;
+}  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    gap: 10px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: 0.8s;
+    padding: 10px 50px;
+    background-color: transparent;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    width: 30px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        padding: 10px 20px;
+    }
+}
+  

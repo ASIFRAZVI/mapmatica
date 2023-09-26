@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=Us">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="frontpage.css">
+    <link rel="website icon" type="png" href="images1/VC.jpg">
+</head>
+<body>
+    <header>
+      <nav>
+        <div class="logo" title="MAPMATICA"><img src="images1/VC.jpg"></div>
+        <ul>
+            <a href="/"><button type="button">Home</button></a>
+            <a href="/About"><button type="button">About</button></a>
+            <div class="dropdown">
+                <a href="#Services"><button type="button"><span>Services</span></button></a>
+                <div class="dropdown-content">
+                    <a href="/AirborneLidar"><button type="buttn"><span>Airborne LiDAR</span></button></a>
+                    <a href="/AirborneLidar"><button type="buttn"><span>Drone Survey</span></button></a>
+                    <a href="/DGPSSurvey"><button type="buttn"><span>DGPS Survey</span></button></a>
+                    <a href="/DGPSSurvey"><button type="buttn"><span>OrthoPhoto</span></button></a>
+                </div>
+            </div>
+            <a href="/Contact"><button type="button">Contact Us</button></a>
+        </ul>
+    </nav>
+    </header>
+    <div class="container">
+    <div class="form-box">
+        <div class="form-value">
+          <form action="/clientregistration" method="post">
+            <h2>Get in touch</h2>
+            <div class="inputbox">
+                <ion-icon name="FullName-outline"></ion-icon>
+                <input type="name" name="name" required>
+                <label for="">Full Name</label>
+              </div>
+            <div class="inputbox">
+              <ion-icon name="mail-outline"></ion-icon>
+              <input type="email" name="email" required>
+              <label for="">Email</label>
+            </div>
+            <div class="inputbox">
+              <ion-icon name="phone-outline"></ion-icon>
+              <input type="tel" name="phnumber" required pattern="[0-9]{10}" title="Please enter 10 digit Phone Number">
+              <label for="">Phone</label>
+            </div>
+            <div class="inputbox">
+                <ion-icon name="Message-outline"></ion-icon>
+                <input type="Message" name="message" rows="4" cols="50" required></textarea>
+                <label for="">Message</label>
+              </div>
+            
+            <button><input type="submit" value="Send Message"></button>
+            
+          </form>
+        </div>
+      </div>
+      </div>
+    
+       <br>
+    
+
+    <div class="footer"> 
+        <div class="container">
+            <div class="footer-card0">
+                <img src="images1/VC.jpg" title="Mapmatica"/>
+                
+            </div>
+            <div class="footer-card">
+                <h2>Navigation Links</h2>
+                <ul>
+                  <li><a href="/"><button type="button">Home</button></a></li>
+                  <li><a href="/AirborneLidar"><button type="bttn">Airborne LiDAR</button></a></li>
+                  <li><a href="/AirborneLidar"><button type="bttn">Drone Survey</button></a></li>
+                  <li><a href="/DGPSSurvey"><button type="bttn">DGPS Survey</button></a></li>
+                  <li><a href="/DGPSSurvey"><button type="bttn">OrthoPhoto</button></a></li>
+                  <li><a href="/About"><button type="button">About Us</button></a></li>
+                  <li><a href="/Contact"><button type="button">Contact Us</button></a></li>
+              </ul>
+            
+            </div>
+            <div class="footer-card1">
+                <h2>Location Address</h2>
+                Location of the office.
+                <h2>E-mail</h2>
+                mail-id: xyz@gmail.com
+                <h2>Phone</h2>
+                123456789
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+</html>
